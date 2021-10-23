@@ -30,7 +30,7 @@ int Sum(int n)
 int main()
 {
 	cout <<"Tinh tong cac 'uoc so' chan cua so nguyen duong n" << endl;
-    int n = Check();
+    	int n = Check();
 	cout << "Tong cac uoc so chan cua so nguyen duong n la: " << Sum(n) << endl;
 	system("pause");
 	return 0;
