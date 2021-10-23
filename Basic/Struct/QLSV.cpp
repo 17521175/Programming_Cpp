@@ -3,6 +3,8 @@
 //2. Tìm SV theo Tên
 //3. Sắp xếp DSSV theo Điểm trung bình thứ tự tăng dần
 //4. Thoát chương trinh
+// Tên: Nguyễn Anh Trung
+// MSSV: 17521175
 #include <iostream>
 #include <string>
 #include <cstring>
