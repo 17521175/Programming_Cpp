@@ -14,7 +14,7 @@ int Mult(int n)
 int main()
 {
 	int n;
-    cout << "Tinh T(n) = 1 * 2 * 3 * ... * n" << endl;
+    	cout << "Tinh T(n) = 1 * 2 * 3 * ... * n" << endl;
 	cout << "Xin moi ban nhap n: ";
 	cin >> n;
 	cout << "Tich T(n) la: " << Mult(n) << endl;
