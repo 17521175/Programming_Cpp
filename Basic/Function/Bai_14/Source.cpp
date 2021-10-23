@@ -19,7 +19,7 @@ int Sum(int x, int n)
 int main()
 {
 	int x;
-    cout << "Tinh S(n) = x + x ^ 3 + x ^ 5 + ... + x ^ (2n + 1)" << endl;
+    	cout << "Tinh S(n) = x + x ^ 3 + x ^ 5 + ... + x ^ (2n + 1)" << endl;
 	cout << "Xin moi ban nhap x: ";
 	cin >> x;
 	int n;
