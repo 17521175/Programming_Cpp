@@ -30,7 +30,7 @@ int Count(int n)
 int main()
 {
 	cout << "Dem so luong cac 'uoc so' chan cua so nguyen duong n" << endl;
-    int n = Check();
+    	int n = Check();
 	cout << "So luong cac uoc so chan cua so nguyen duong n la: " << Count(n) << endl;
 	system("pause");
 	return 0;
