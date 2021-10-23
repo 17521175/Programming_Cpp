@@ -18,7 +18,7 @@ int Check()
 int main()
 {
 	cout << "Liet ke cac 'uoc so' le cua so nguyen duong n" << endl;
-    int n = Check();
+    	int n = Check();
 	cout << "Cac uoc so le cua so nguyen duong n la: ";
 	for (int i = 1; i <= n; i++) {
 		if (n % i == 0) {
@@ -27,7 +27,7 @@ int main()
 			}
 		}
 	}
-    cout << endl;
+    	cout << endl;
 	system("pause");
 	return 0;
 }
