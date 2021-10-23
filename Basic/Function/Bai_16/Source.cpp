@@ -18,7 +18,7 @@ double Sum(int x, int n)
 int main()
 {
 	cout << "Tinh S(n) = x + x ^ 2 / (1 + 2) + x ^ 3 / (1 + 2 + 3) + ... + x ^ n / (1 + 2 + 3 + ... + n)" << endl;
-    int x;
+    	int x;
 	cout << "Xin moi ban nhap x: ";
 	cin >> x;
 	int n;
