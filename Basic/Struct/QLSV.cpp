@@ -116,8 +116,8 @@ void MSSV(SinhVien DSSV[], int n, int &x)
 	{
 		if (DSSV[i].MSSV == x)
 		{			
-            cout << "Thong tin cua Sinh Vien. " << endl;
-            cout << "-------------------------------------------------------------------" << endl;
+           		cout << "Thong tin cua Sinh Vien. " << endl;
+           		cout << "-------------------------------------------------------------------" << endl;
 			cout << "MSSV: " << DSSV[i].MSSV << endl;
 			cout << "Ho va Ten: " << DSSV[i].Hoten << endl;
 			cout << "Tuoi: " << DSSV[i].Tuoi << endl;
@@ -135,7 +135,7 @@ void Tim_Ten(SinhVien DSSV[], int n, char f[])
 		if (strcmp(DSSV[i].Hoten, f) == 0)
 		{
 			cout << "Thong tin cua Sinh Vien. " << endl;
-            cout << "-------------------------------------------------------------------" << endl;
+            		cout << "-------------------------------------------------------------------" << endl;
 			cout << "MSSV: " << DSSV[i].MSSV << endl;
 			cout << "Ho va Ten: " << DSSV[i].Hoten << endl;
 			cout << "Tuoi: " << DSSV[i].Tuoi << endl;
@@ -157,20 +157,20 @@ void Sap_Xep(SinhVien DSSV[], int n)
 			if (DSSV[i].DiemTB > DSSV[j].DiemTB)
 			{
 				
-                strcpy(tempHoten, DSSV[i].Hoten);
-                strcpy(DSSV[i].Hoten, DSSV[j].Hoten);
-                strcpy(DSSV[j].Hoten, tempHoten);
+                		strcpy(tempHoten, DSSV[i].Hoten);
+                		strcpy(DSSV[i].Hoten, DSSV[j].Hoten);
+                		strcpy(DSSV[j].Hoten, tempHoten);
 
-                tempMSSV = DSSV[i].MSSV;
+                		tempMSSV = DSSV[i].MSSV;
 				DSSV[i].MSSV = DSSV[j].MSSV;
 				DSSV[j].MSSV = tempMSSV;
 
-                tempTuoi = DSSV[i].Tuoi;
+                		tempTuoi = DSSV[i].Tuoi;
 				DSSV[i].Tuoi = DSSV[j].Tuoi;
 				DSSV[j].Tuoi = tempTuoi;
     
 
-                tempDiemTB = DSSV[i].DiemTB;
+                		tempDiemTB = DSSV[i].DiemTB;
 				DSSV[i].DiemTB = DSSV[j].DiemTB;
 				DSSV[j].DiemTB = tempDiemTB;
 
