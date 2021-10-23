@@ -16,7 +16,7 @@ int Sum(int x, int n)
 int main()
 {
 	int x, n;
-    cout << "Tinh S(n) = x + x ^ 2 + x ^ 3 + ... + x ^ n" << endl;
+    	cout << "Tinh S(n) = x + x ^ 2 + x ^ 3 + ... + x ^ n" << endl;
 	cout << "Xin moi ban nhap x: ";
 	cin >> x;
 	cout << "Xin moi ban nhap n: ";
