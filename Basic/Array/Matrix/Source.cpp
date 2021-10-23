@@ -1,3 +1,5 @@
+// Tên: Nguyễn Anh Trung
+// MSSV: 17521175
 #include <iostream>
 #define MAX 100
 using namespace std;
