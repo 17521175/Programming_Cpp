@@ -42,7 +42,7 @@ void CheckPerfect(int n)
 int main()
 {
 	cout << "Kiem tra so hoan thien" << endl;
-    int n = Check();
+    	int n = Check();
 	CheckPerfect(n);
 	system("pause");
 	return 0;
