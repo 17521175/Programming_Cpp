@@ -28,7 +28,7 @@ int Tich(int n)
 int main()
 {
 	cout << "Tinh tich cac 'uoc so' cua so nguyen duong n" << endl;
-    int n = Check();
+    	int n = Check();
 	cout << "Tich cac 'uoc so' cua so nguyen duong n la: " << Tich(n) << endl;
 	system("pause");
 	return 0;
