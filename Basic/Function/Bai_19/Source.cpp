@@ -20,7 +20,7 @@ double Sum(int x, int n)
 int main()
 {
 	cout << "Tinh S(n) = 1 + x + x ^ 3 / 3!+ x ^ 5 / 5!+ ... + x ^ (2n + 1) / (2n + 1)!" << endl;
-    int x;
+    	int x;
 	cout << "Xin moi ban nhap x: ";
 	cin >> x;
 	int n;
