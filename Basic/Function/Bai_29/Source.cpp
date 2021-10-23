@@ -33,7 +33,7 @@ int FindMax(int n)
 int main()
 {
 	cout << "Tim 'uoc so' le lon nhat cua so nguyen duong n" << endl;
-    int n = Check();
+    	int n = Check();
 	cout << "Uoc so le lon nhat cua so nguyen duong n la: " << FindMax(n) << endl;
 	system("pause");
 	return 0;
